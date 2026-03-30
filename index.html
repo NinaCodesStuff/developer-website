@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Nina Canter
+        </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Zen+Dots&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    Nina<span>Codes</span>
+                </div>
+
+                <div class="dropdown-container">
+                    <img src="images/dropdown-arrow.png" 
+                    class="dropdown-arrow" 
+                    alt="" 
+                    aria-label="Open dropdown menu.">
+                    
+                    <ul class="nav-menu">
+                        <li><a href="#about-me-section" class="nav-links">About</a></li>
+                        <li><a href="#project-section" class="nav-links">Projects</a></li>
+                        <li><a href="#contact-section" class="nav-links">Contact</a></li>
+                    </ul>
+                </div>
+            </nav> 
+        </header>
+
+        <main>
+            <section class="hero-section">
+                <div class="container hero-container">
+                    <img src="images/rose-icon.jpg" class="hero-img" alt="">
+                    <h1>I'm <span class="pink-highlight">Nina,</span> an aspiring<span> front end developer</span> with a passion for design.</h1>
+                </div>
+            </section>
+
+            <section id="about-me-section">
+                <div class="container about-me-container">
+                    <img src="images/avatar-icon.png" class="avatar-icon" alt="An anonymous user icon.">
+                    <h2 class="about-me-heading">About Me</h2>
+                    <p class="about-me-text">I began my journey in early December of 2025 and am looking forward to continuing to learn and grow as I hone my skills in web development. I am currently learning basic HTML, CSS, and Javascript.</p>
+                    <p class="about-me-text">When I am not learning to code I enjoy listening to music, watching true crime documentaries, playing video games, creating digital art, and spending time with my cats.</p>
+                    <p class="about-me-text"><a href="#contact-section" class="contact-me-link">You can contact me here.</a></p>
+                </div>
+            </section>
+                
+            <section id="project-section">
+                <div class="container project-container">
+                    <h2 class="project-section-heading">Projects</h2>
+                    <div class="project-card">
+                        <img src="images/floras-flowers.jpeg" class="project-img" alt="Flora's Flowers Website.">
+                        <h3>Flora's Flowers</h3>
+                        <p>A splash page created for a flower delivery service. Utilizes HTML & CSS with a focus on design.</p>
+                        <a href="https://github.com/NinaCodesStuff/floras-flowers-project" class="btn project-btn" role="button">View Here</a>
+                    </div>
+                
+
+                    <div class="project-card">
+                        <img src="images/pokemon-card-site.jpeg" class="project-img" alt="PokéCard Website project.">
+                        <h3>PokéCard Site</h3>
+                        <p>A pokemon card collecting info site. Utilizes HTML & CSS with a focus on responsiveness.</p>
+                        <a href="https://github.com/NinaCodesStuff/pokemon-card-site-project" class="btn project-btn" role="button">View Here</a>
+                    </div>
+                
+                
+                    <div class="project-card">
+                        <img src="images/hometown-website.jpeg" class="project-img" alt="Hometown Website project.">
+                        <h3>Hometown Site</h3>
+                        <p>An early project where I created a simple webpage for my hometown. Utilizes HTML & CSS.</p>
+                        <a href="https://github.com/NinaCodesStuff/hometown-website" class="btn project-btn" role="button">View Here</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact-section">
+                <div class="container contact-container">
+                    <h2 class="contact-form-heading">Contact Me</h2>
+                    <form method="POST" action="https://api.web3forms.com/submit">
+                        <div>
+                        <input type="hidden" name="access_key" value="4b1122e3-28a7-4dbe-899d-d53b2ff810df">
+                        <label for="name">Name</label>
+                        <br>
+                        <input 
+                        type="text" 
+                        placeholder="" 
+                        id="name" 
+                        name="name"
+                        required
+                        aria-required="true">
+                        </div>
+                        
+                        <div>
+                        <label for="email">Email</label><br>
+                        <input 
+                        type="email"
+                        placeholder=""
+                        id="email"
+                        name="email"
+                        required
+                        aria-required="true">
+                        </div>
+                    
+                        <div>
+                        <label for="message">Message</label><br>
+                        <textarea
+                        placeholder=""
+                        id="message"
+                        name="message"
+                        required 
+                        aria-required="true">
+                        </textarea>
+                        </div>
+                        <button class="btn send-btn" type="submit" value="Submit">Send Message</button>
+                    </form> 
+                    <div class="contact-icon-container">
+                        <a href="https://github.com/NinaCodesStuff"><img src="images/github-icon.png" class="contact-icons" alt=""></a>
+                        <a href="mailto:ninacodes@outlook.com"><img src="images/email-icon.png" class="contact-icons" alt=""></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="copyright-info">
+        ©NinaCodes 2026
+        </footer>
+
+    </body>
+
+   
+    
+    </html>
